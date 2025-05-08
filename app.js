@@ -9,14 +9,14 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://auth-eight-ashen.vercel.app", // Frontend URL
-    credentials: true, // Allows cookies to be sent with requests
+    origin: ["https://auth-eight-ashen.vercel.app", "http://localhost:3000"], // Frontend URL
+    credentials: true,
   })
 );
 
 app.use(express.json());
 app.use(cookieParser());
-app.set('trust proxy', 1);
+app.set("trust proxy", 1);
 
 // Define your API routes
 app.use("/api/auth", authRouter);

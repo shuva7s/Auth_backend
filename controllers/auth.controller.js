@@ -1,12 +1,3 @@
-// import redis from "../utils/redis.js";
-// import { generateOTP, sendAccountActivationEmail } from "../services/otpService.js";
-// import { generateToken, genUniqueId } from "../utils/jwt.js";
-// import jwt from "jsonwebtoken";
-// import bcrypt from "bcryptjs";
-
-// import pool from "../utils/db.js";
-// import { AppError } from "../libs/app-error.js";
-
 import redis from "../libs/redis.js";
 import bcrypt from "bcryptjs";
 
