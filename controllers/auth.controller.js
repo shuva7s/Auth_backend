@@ -60,7 +60,7 @@ export const sign_up = async (req, res) => {
   res.cookie("signup_process_token", signup_process_token, {
     httpOnly: true,
     secure: true,
-    sameSite: "lax",
+    sameSite: "None",
     maxAge: 5 * 60 * 1000,
   });
 
