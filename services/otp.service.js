@@ -28,8 +28,7 @@ export const sendAccountActivationEmail = async (email, otp) => {
   <div style="font-family: Arial, sans-serif; background-color: #ffffff;">
     <main style="max-width: 600px; margin: auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
       <!-- Header -->
-      <div style="background: linear-gradient(90deg, #4a90e2, #007bff); padding: 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;">
-        <img src="https://auth-eight-ashen.vercel.app/logo.svg" alt="App Logo" style="height: 50px;" />
+      <div style="background: linear-gradient(90deg, #4a90e2, #007bff); padding: 30px; display: flex;">
         <h1 style="color: #ffffff; margin: 0; font-size: 20px;">Welcome to Auth</h1>
       </div>
 
