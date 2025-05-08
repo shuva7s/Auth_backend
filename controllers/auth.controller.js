@@ -62,8 +62,7 @@ export const sign_up = async (req, res) => {
 };
 
 export const verify_sign_up_otp = async (req, res) => {
-  const { otp } = req.body;
-  const token = req.cookies.signup_process_token;
+  const { otp, token } = req.body;
 
   if (!otp || !token) {
     throw new AppError("Missing required inputs", 400);
