@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://auth-eight-ashen.vercel.app"], // Frontend URL
+    origin: ["https://auth-eight-ashen.vercel.app", "http://localhost:3000"], // Frontend URL
     credentials: true,
   })
 );
